@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <title>WoW Lore Quiz</title>
+</head>
+
+<body>
+    <form action="" name="myForm">
+        <h1>World of Warcraft Lore Quiz</h1>
+
+
+        <tr>
+            <td>
+                <div>
+                    <p class="question">1.) Which night elf was appointed the jailor of Illidan Stormrage?</p>
+                    <ul>
+                        <input class="answer" type="radio" name="q1" value="1">
+                        <label id="correctString1">a.) Maiev Shadowsong</label>
+                        <br>
+                        <input class="answer" type="radio" name="q1" value="0">
+                        <label>b.) Jared Shadowsong</label>
+                        <br>
+                        <input class="answer" type="radio" name="q1" value="0">
+                        <label>c.) Malfurion Stormrage</label>
+                        <br>
+                        <input class="answer" type="radio" name="q1" value="0">
+                        <label>d.) Kaelthas Sunstrider</label>
+                    </ul>
+                </div>
+
+            </td>
+        </tr>
+
+        <p class="question">2.) Who is the Lich King, that was also the Prince of Lordaeron and a Paladin of the
+            Silver
+            Hand?</p>
+        <p><input type="answer" id="radio" name="txtName" /></p>
+
+        <tr>
+            <td>
+                <div>
+                    <p class="question">3.) What effects that you can't see when you use the Noggenfogger Elixir?
+                    </p>
+                    <ul>
+                        <input class="answer" type="radio" name="q2" value="0">
+                        <label>slow fall</label>
+                        <br>
+                        <input class="answer" type="radio" name="q2" value="1">
+                        <label id="correctString1">become sheep</label>
+                        <br>
+                        <input class="answer" type="radio" name="q2" value="0">
+                        <label>shrink</label>
+                        <br>
+                        <input class="answer" type="radio" name="q2" value="0">
+                        <label>become skeleton</label>
+                    </ul>
+                </div>
+
+            </td>
+        </tr>
+        <p class="question">4.) Who was the brother of Varok Saurfang and the only Orc to fight in the War of the
+            Ancients? also the only known mortal to ever inflict a wound to Sargeras.</p>
+        <p><input type="answer" id="name" name="txtName" /></p>
+        <tr>
+            <td>
+                <div>
+                    <p class="question">5.) What was Thrall's first & orcish name given to him by his birth parents,
+                        Durotan & Draka?</p>
+                    <ul>
+                        <input class="answer" type="radio" name="q3" value="0">
+                        <label>Grom</label>
+                        <br>
+                        <input class="answer" type="radio" name="q3" value="1">
+                        <label id="correctString1">Go'el</label>
+                        <br>
+                        <input class="answer" type="radio" name="q3" value="0">
+                        <label>Vol'jin</label>
+                        <br>
+                        <input class="answer" type="radio" name="q3" value="0">
+                        <label>Lo'gosh</label>
+                    </ul>
+                </div>
+
+            </td>
+        </tr>
+
+        <p>
+            <div class="submits">
+                <input class="submit" id="submitBtn" type="submit" value="Submit" name="btnCheckForm">
+        </p>
+        <p id="errorName" style="display:none;">Please enter your name.</p>
+        <p id="errorAge" style="display:none;">Please enter your age.</p>
+        </div>
+        <div class="quizAnswers" id="correctAnswer1"></div>
+        <div class="quizAnswers" id="correctAnswer2"></div>
+        <div class="quizAnswers" id="correctAnswer3"></div>
+        <div class="quizAnswers" id="correctAnswer4"></div>
+        <div>
+            <h2 class="score" id="userscore"> </h2>
+        </div>
+
+    </form>
+
+    <script src="test.js"></script>
+
+</body>
+
+
+</html>
